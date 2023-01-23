@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
   testImplementation(kotlin("test"))
+  testImplementation("com.github.tomakehurst:wiremock-jre8:2.35.0")
 }
 
 tasks.test {
